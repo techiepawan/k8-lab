@@ -17,7 +17,7 @@ spec:
       containers:
         - name: myapp
           image: nginx
-  replicas: 7       
+  replicas: 10      
   selector:
     matchLabels:
       tier: frontend
